@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img">
+  <title>Firefox lineage: Netscape Navigator, Mozilla suite, Phoenix and Firebird, Firefox</title>
+  <rect width="640" height="160" fill="#ffffff"/>
+  <g font-family="Arial" font-size="15" text-anchor="middle">
+    <rect x="8" y="40" width="140" height="70" rx="8" fill="#12355b"/>
+    <text x="78" y="70" fill="#ffffff" font-weight="bold">Netscape</text>
+    <text x="78" y="92" fill="#ffffff" font-size="13">Navigator, 1994</text>
+    <rect x="171" y="40" width="140" height="70" rx="8" fill="#12355b"/>
+    <text x="241" y="70" fill="#ffffff" font-weight="bold">Mozilla</text>
+    <text x="241" y="92" fill="#ffffff" font-size="13">project, 1998</text>
+    <rect x="334" y="40" width="140" height="70" rx="8" fill="#12355b"/>
+    <text x="404" y="70" fill="#ffffff" font-weight="bold">Phoenix / Firebird</text>
+    <text x="404" y="92" fill="#ffffff" font-size="13">2002 to 2003</text>
+    <rect x="497" y="40" width="135" height="70" rx="8" fill="#c2410c"/>
+    <text x="564" y="70" fill="#ffffff" font-weight="bold">Firefox</text>
+    <text x="564" y="92" fill="#ffffff" font-size="13">1.0, 2004</text>
+  </g>
+  <g stroke="#52606d" stroke-width="2" fill="none">
+    <line x1="148" y1="75" x2="171" y2="75"/>
+    <line x1="311" y1="75" x2="334" y2="75"/>
+    <line x1="474" y1="75" x2="497" y2="75"/>
+  </g>
+</svg>
