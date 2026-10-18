@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Today and Future | The Web Browser</title>
+  <!Single shared stylesheet for every page>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!Header and main menu: identical on every page>
+  <header id="site-header">
+    <h1>The Web Browser: Mozilla Firefox</h1>
+    <nav class="site-nav" aria-label="Main menu">
+      <a href="index.html" >Home</a>
+      <a href="history.html" >History</a>
+      <a href="current-and-future.html" class="current" aria-current="page">Today &amp; Future</a>
+      <a href="key-concepts.html" >Key Concepts</a>
+      <a href="references.html" >References</a>
+      <a href="about.html" >About</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Today and the Future</h2>
+
+    <h3>Market Share (September 2026)</h3>
+    <table>
+      <caption>Worldwide browser share, all platforms (StatCounter)</caption>
+      <thead>
+        <tr><th>Browser</th><th>Share</th><th>Engine</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Chrome</td><td>66.4%</td><td>Blink</td></tr>
+        <tr><td>Safari</td><td>18.3%</td><td>WebKit</td></tr>
+        <tr><td>Edge</td><td>6.0%</td><td>Blink</td></tr>
+        <tr><td>Firefox</td><td>2.8%</td><td>Gecko</td></tr>
+        <tr><td>Samsung Internet</td><td>2.3%</td><td>Blink</td></tr>
+        <tr><td>Opera</td><td>1.8%</td><td>Blink</td></tr>
+      </tbody>
+    </table>
+    <p>Only three engines power nearly every browser: Blink, WebKit, and Gecko. Blink alone
+    runs most of the browsers in the table above.</p>
+
+    <h3>Recent Developments</h3>
+    <div class="card-grid">
+      <article class="card">
+        <h3>Antitrust ruling (2025)</h3>
+        <p>A federal judge declined to force Google to sell Chrome, but barred exclusive
+        distribution deals and ordered limited data sharing with rivals.</p>
+      </article>
+      <article class="card">
+        <h3>AI browsers (2025 to 2026)</h3>
+        <p>Perplexity Comet and ChatGPT Atlas pushed agentic browsing. Atlas launched in
+        October 2025 and is being shut down in favor of the ChatGPT desktop app.</p>
+      </article>
+      <article class="card">
+        <h3>Incumbents add AI</h3>
+        <p>Chrome added a Gemini side panel and an Auto Browse agent in January 2026.</p>
+      </article>
+    </div>
+
+    <h3>Future Directions</h3>
+    <ul>
+      <li><strong>Agentic browsing:</strong> assistants that click, fill forms, and finish tasks for the user.</li>
+      <li><strong>Legal and trust questions:</strong> Amazon's lawsuit over Comet shows the rules are unsettled.</li>
+      <li><strong>Engine diversity:</strong> Ladybird is a from-scratch engine that targets an alpha release in 2026.</li>
+      <li><strong>Regulation:</strong> rules on default search and distribution may reshape competition.</li>
+    </ul>
+  </main>
+
+  <!Footer: class project note and link>
+  <footer id="site-footer">
+    <p>This website is a class project for IT 3203 at Kennesaw State University.
+    Visit the <a href="https://ksuweb.github.io/IT3203/">IT 3203 class website</a>.</p>
+  </footer>
+</body>
+</html>
